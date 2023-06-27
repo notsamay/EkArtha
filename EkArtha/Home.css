@@ -1,0 +1,337 @@
+@font-face {
+    font-family: main;
+    src: url(Fonts/Aceh-Light.ttf);
+}
+body {
+    background-color: rgba(243, 243, 243);
+    border-radius: 25px;
+}
+
+.nav {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.nav h2 {
+    color: rgba(243, 243, 243, 0.935);
+    font-family: main;
+}
+
+.lg {
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 85px;
+
+}
+
+#item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#item li {
+    list-style: none;
+    margin-top: 5%;
+    padding-right: 280px;
+    font-family: main;
+    
+}
+
+#item li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: rgba(243, 243, 243, 0.935);  
+}
+.nav #item .h{
+    text-decoration: underline;
+    padding-bottom: 50px;
+
+}
+
+#item li a:hover {
+    color: rgb(0, 134, 211);
+}
+
+.back {
+    
+    background-image: url(images/HomeImages/BG.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: 0;
+    position: absolute ;
+    top: 0;
+    left: 0;
+
+}
+
+.overlay {
+    background: #424242b6;
+    width: 100%;
+    height: 100%;
+}
+
+.mid {
+    width: 100%;
+    color: rgba(243, 243, 243, 0.935);
+    font-family: main;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.mid h2 {
+    margin-top: -50px;
+    text-decoration: none;
+    font-size: 5.5rem;
+}
+
+.mid .btn a.border {   
+    width: 50%;
+    padding: 3px 3px;
+    margin-left: 15px;
+    
+    font-size: 2.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(243, 243, 243, 0.935);
+    border-radius: 3px;
+    border: 3px solid;
+    border-color: rgb(0, 134, 211); 
+    background-color: rgb(0, 134, 211);
+    box-shadow: 4px 4px 4px 2px rgba(24, 47, 61, 0.5);
+    
+}
+
+.mid .btn a.simple {
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(36, 33, 97);  
+    font-weight: bold;
+}
+
+.mid .btn a.simple:hover {
+    color: rgb(255, 255, 255);
+}
+
+.mid .btn a.border:hover {
+    background-color: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255);
+}
+
+
+.about{
+    background-color: rgb(18, 18, 31);
+    width: 100%;
+    align-items: center;
+    height: 23vh;
+    z-index: 0;
+    position: absolute; 
+    margin-top: 98vh; 
+    left: 0;
+    font-family: main;
+}
+
+.about h2{
+    color: rgba(243, 243, 243, 0.935);
+    font-size: 4rem;
+    margin-left: 200px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.about h3{
+    color: rgba(243, 243, 243, 0.935);
+    font-size: 4rem;
+    margin-left: 60%;
+    margin-top: -6%;
+    font-style: oblique;
+}
+
+.vison{
+    background-color:  rgba(243, 243, 243, 0.935);
+    width: 100%;
+    align-items: center;
+    height: 225px;
+    z-index: 0;
+    position: absolute; 
+    margin-top: 120vh; 
+    left: 0;
+    font-family: main;
+}
+
+.vison h2{
+    color: rgba(0, 0, 0, 0.935);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 18%;
+
+}
+.vison p{
+    color: rgb(14, 14, 14);
+    font-size: 1.3rem;
+    text-align: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: -1%;
+    
+
+}
+
+.vison .p2{
+    width: 25%;
+    right: 10%;
+    position: absolute;
+    margin-top: -18%;
+    border-radius: 3px;  
+}
+
+.end{
+    background-color: rgb(18, 18, 31);  
+    width: 100%;
+    align-items: center;
+    height: 104vh;
+    z-index: 0;
+    position: absolute; 
+    margin-top: 175vh; 
+    left: 0;
+
+} 
+
+.end .CommitmentP{
+    width: 30vh;
+    margin-left: 30vh;
+    margin-top: -5%;
+}
+
+.end h1{
+    color: white;
+    font-family: main;
+    font-size: 4rem;
+    margin-left: 44%;
+
+
+}
+.end h2{
+    color: white;
+    font-family: main;
+    font-size: 2rem;
+}
+.end p{
+    color: white;
+    font-family: main;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 300px;
+}
+.Commitment{
+    width: 35%;
+    margin-left:32%; 
+    margin-top: -10%;
+    font-size: 2rem;
+}
+
+.Commitment + p {
+    margin-left: 32%;
+
+
+}
+.Sharing{
+    width: 35%;
+    margin-left:32%; 
+    margin-top: -11%;
+    font-size: 2rem;
+}
+
+.Sharing + p {
+    margin-left: 32%;
+}
+
+.SharingP{
+    margin-top: 9%;
+    width: 30vh;
+    margin-left: 15%;
+
+}
+
+.end .L2{
+    width: 30vh;
+    margin-left: 140vh;
+    position: absolute;
+    margin-top: -21%;
+}
+.end .L3{
+    width: 30vh;
+    margin-left: 140vh;
+    position: absolute;
+    margin-top:-1%;
+}
+
+.Excellence{
+
+    margin-left: 69vh;
+    width: 35%;
+    position: absolute;
+    margin-top: -18%;
+    text-align: right;
+
+}
+
+.Excellence +p{
+
+    margin-left: 107vh;
+    width: 35%;
+    position: absolute;
+    margin-top: -16%;
+    text-align: right;
+    width: 300px;
+
+}
+
+.Believe{
+
+    margin-left: 69vh;
+    width: 35%;
+    position: absolute;
+    margin-top: 3%;
+    text-align: right;
+
+}
+
+.Believe +p{
+
+    margin-left: 107vh;
+    width: 35%;
+    position: absolute;
+    margin-top: 5%;
+    text-align: right;
+    width: 300px;
+
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade-in 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+
+

@@ -1,0 +1,187 @@
+@font-face {
+    font-family: main;
+    src: url(Fonts/Aceh-Light.ttf);
+}
+body {
+    background-color: rgba(243, 243, 243);
+    border-radius: 25px;
+}
+
+.nav {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.nav h2 {
+    color: rgba(243, 243, 243, 0.935);
+    font-family: main;
+}
+
+.lg {
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 85px;
+
+}
+
+#item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#item li {
+    list-style: none;
+    margin-top: 5%;
+    padding-right: 280px;
+    font-family: main;
+    
+}
+
+#item li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: rgba(243, 243, 243, 0.935); 
+}
+.nav #item .a{
+    text-decoration: underline;
+    padding-bottom: 50px;
+
+}
+
+#item li a:hover {
+    color: rgb(0, 134, 211);
+}
+
+
+
+
+
+.about{
+    background-color: rgb(18, 18, 31);
+    width: 100%;
+    align-items: center;
+    height: 60vh;
+    z-index: 0;
+    position: absolute; 
+    margin-top: -20px; 
+    left: 0;
+    font-family: main;
+}
+
+.about h2{
+    padding-top: 7%;
+    color: rgba(243, 243, 243, 0.935);
+    font-size: 6rem;
+    margin-left: 200px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.about h3{
+    color: rgba(243, 243, 243, 0.935);
+    font-size: 5rem;
+    margin-left: 70%;
+    margin-top: -3%;
+    font-style: oblique;
+}
+
+.vison{
+    background-color:  rgba(243, 243, 243, 0.935);
+    width: 100%;
+    align-items: center;
+    height: 225px;
+    z-index: 0;
+    position: absolute; 
+    margin-top: 60vh; 
+    left: 0;
+    font-family: main;
+}
+
+.vison .ab{
+    color: rgb(0, 134, 211);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 18%;
+
+}
+
+.vison .WWR{
+    color: rgb(0, 134, 211);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 60%;
+
+
+}
+.vison .pa1{
+    color: rgb(14, 14, 14);
+    font-size: 1.5rem;
+    text-align: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 0%;
+    
+
+}
+.vison .pa2{
+    color: rgb(14, 14, 14);
+    font-size: 1.6rem;
+    text-align: left;
+    width: 50%;
+    margin-left: 45%;
+    margin-top: -1%;
+    
+
+}
+
+.vison .p1{
+    width: 35%;
+    right: 5%;
+    position: absolute;
+    margin-top: -25%;
+    border-radius: 3px;  
+}
+
+.vison .p2{
+    width: 35%;
+    position: absolute;
+    border-radius: 3px;  
+    margin-top: 3%;
+    left: 5%;
+}
+.end{
+    background-color: rgb(18, 18, 31);  
+    width: 100%;
+    align-items: center;
+    height: 10vh;
+    z-index: 0;
+    position: absolute; 
+    margin-top: 195vh; 
+    left: 0;
+
+} 
+
+.fade-in {
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
