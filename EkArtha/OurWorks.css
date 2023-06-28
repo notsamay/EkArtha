@@ -40,7 +40,7 @@ body {
 #item li {
     list-style: none;
     margin-top: 5%;
-    padding-right: 280px;
+    padding-right: 230px;
     font-family: main;
     
 }
@@ -61,7 +61,19 @@ body {
     color: rgb(0, 134, 211);
 }
 
+.nav #item .d{
+    border: 1px solid #ffffff; 
+    padding: 7px 15px; 
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 3px;
 
+}
+.nav #item .d:hover {
+    color: rgb(0, 134, 211);
+    border-color:  rgb(0, 134, 211);;
+}
 
 
 
@@ -231,7 +243,13 @@ body {
     margin-top: 400vh; 
     left: 0;
 
+    
 } 
+
+.MT{
+    position: absolute;
+    margin-left: 42%;
+}
 
 
 

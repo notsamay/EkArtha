@@ -40,7 +40,7 @@ body {
 #item li {
     list-style: none;
     margin-top: 5%;
-    padding-right: 280px;
+    padding-right: 230px;
     font-family: main;
     
 }
@@ -61,7 +61,19 @@ body {
     color: rgb(0, 134, 211);
 }
 
+.nav #item .d{
+    border: 1px solid #ffffff; 
+    padding: 7px 15px; 
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 3px;
 
+}
+.nav #item .d:hover {
+    color: rgb(0, 134, 211);
+    border-color:  rgb(0, 134, 211);;
+}
 
 
 
@@ -79,19 +91,23 @@ body {
 
 .email{
     color: rgb(228, 228, 228);
-    font-size: 3rem;
-    margin-top:10%;
+    font-size: 2rem;
+    margin-top:13%;
+    margin-left: 22%;
+}
+.else{
+    color: rgb(228, 228, 228);
+    font-size: 2rem;
+
     margin-left: 22%;
 }
 
 
 
-.finalPicture{
-
-    width: 35%;
+.MT{
     position: absolute;
-    margin-top: -25%;
-    margin-left: 60%;
-
-    
+    margin-left: 42%;
 }
+
+
+
