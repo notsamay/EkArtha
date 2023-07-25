@@ -615,7 +615,7 @@ nav ul li a:hover{
     
     #section2 .textbox {
         width: 50%; /* Adjust the width of the text box */
-        padding-right: 20px; /* Add some spacing between the text and image */
+        padding: 0;
     }
     
     #section2 .image {
@@ -648,19 +648,6 @@ nav ul li a:hover{
 
     }
     .donate-button {
-        background-color:#60C7F5;
-        color: white;
-        border-radius: 0.5vw; /* Use a large value to make it fully rounded */
-        padding: 1vw 2vh;
-        font-size: 2vw;
-        font-family: 'Arial', sans-serif;
-        font-style: normal;
-        /* Adjust the right padding to give the button space */
-        padding-right: 2vw;
-        margin-right: 3vw;
-        /* Adjust the left padding to give the button space */
-        padding-left: 2vw;
-        /* Remove the underline */
     
         text-decoration: none;
     }
@@ -672,18 +659,21 @@ nav ul li a:hover{
         line-height: 1.4; /* Adjust line-height for better readability */
         text-align: center;
         width: 80vw;
+        padding: 0;
     }
 
     .textbox h3 {
         font-size: 4vw; /* Increase the font size for the heading */
         text-align: center;
         width: 80vw;
+        padding: 0;
     }
     
     .text h2{
         font-size: 4vw; /* Increase the font size for the heading */
         text-align: center;
         width: 80vw;
+        padding: 0;
 
     }
     .text p {
@@ -691,11 +681,13 @@ nav ul li a:hover{
         line-height: 1.4; /* Adjust line-height for better readability */
         text-align: center;
         width: 80vw;
+        padding: 0;
     }
     .textr h2{
         font-size: 4vw; /* Increase the font size for the heading */
         text-align: center;
         width: 80vw;
+        padding: 0;
 
     }
     .textr p {
@@ -703,6 +695,7 @@ nav ul li a:hover{
         line-height: 1.4; /* Adjust line-height for better readability */
         text-align: center;
         width: 80vw;
+        padding: 0;
     }
     
 
