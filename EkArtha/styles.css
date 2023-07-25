@@ -569,245 +569,173 @@ nav ul li a:hover{
 
 @media screen and (max-width: 768px) {
     body {
-        overflow-x: hidden; /* Disable horizontal scrolling */
+      overflow-x: hidden;
     }
-    #our-values{
-        height: 60vh;
-        background-color: #151b3c;
-        
-      }
-    
-    .LandingText{
-
-        font-size: 7vw;
-        white-space: normal; /* Allow line breaks on smaller viewports */
-    }
-    nav ul li a {
-        padding-right: 5vw;
-        padding-left: 5vw;
-    }
-    #section2 {
-        height: 440vh;
-      }
-
-    nav{
-        height: 10vh;
-    }
-
-    .logo{
-        width: 8vw;
-    }
-      
-    nav ul li a {
-        font-size: 2vw;
-        padding: 3vw;
-
-    }
-    #section2 .content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* Add padding to create space between content and image */
-        padding: 40px;
-    }
-    
-    #section2 .textbox {
-        width: 50%; /* Adjust the width of the text box */
-        padding-right: 20px; /* Add some spacing between the text and image */
-    }
-    
-    #section2 .image {
-        width: 50%; /* Adjust the width of the image container */
-    }
-    
-    /* Adjust the width of the image for better responsiveness on smaller screens */
-    #section2 .image img {
-        width: 100%;
-    }
-    
-    .image {
-        display: none; /* Hide the image on smaller screens */
-        padding:0;
-        width: 0;
-
-    }
-    .image img{
-        padding:0;
-        width: 0;
-    }
-
-    .imager{
-        display: none;
-    }
-
-    .textbox {
-
-       align-items: center;
-
-    }
-    .donate-button {
-        background-color:#60C7F5;
-        color: white;
-        border-radius: 0.5vw; /* Use a large value to make it fully rounded */
-        padding: 1vw 2vh;
-        font-size: 2vw;
-        font-family: 'Arial', sans-serif;
-        font-style: normal;
-        /* Adjust the right padding to give the button space */
-        padding-right: 2vw;
-        margin-right: 3vw;
-        /* Adjust the left padding to give the button space */
-        padding-left: 2vw;
-        /* Remove the underline */
-    
-        text-decoration: none;
-    }
-      
-      
-
-    .textbox p {
-        font-size: 3vw; /* Increase the font size for the paragraph */
-        line-height: 1.4; /* Adjust line-height for better readability */
-        text-align: center;
-        width: 80vw;
-    }
-
-    .textbox h3 {
-        font-size: 4vw; /* Increase the font size for the heading */
-        text-align: center;
-        width: 80vw;
-    }
-    
-    .text h2{
-        font-size: 4vw; /* Increase the font size for the heading */
-        text-align: center;
-        width: 80vw;
-
-    }
-    .text p {
-        font-size: 3vw; /* Increase the font size for the paragraph */
-        line-height: 1.4; /* Adjust line-height for better readability */
-        text-align: center;
-        width: 80vw;
-    }
-    .textr h2{
-        font-size: 4vw; /* Increase the font size for the heading */
-        text-align: center;
-        width: 80vw;
-
-    }
-    .textr p {
-        font-size: 3vw; /* Increase the font size for the paragraph */
-        line-height: 1.4; /* Adjust line-height for better readability */
-        text-align: center;
-        width: 80vw;
-    }
-    
-
-
-
-
-    /* Arrange gallery images in a 3 by 3 grid */
-    .gallery {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .gallery-image {
-        width: calc(40% - 10px); /* 3 images per row, adjust the width and margin as needed */
-        margin: 5px; /* Add some space between images */
-    }
-
-    .gallery-image img {
-        width: 40vw; /* Increase the width of the gallery images for smaller screens */
-    }
-
-    .GalleryText h2 {
-        font-size: 1.5rem; /* Increase the font size of the heading in the about me section */
-    }
-    .image1{
-        display: none;
-    }
-
-    /* Additional styles for contact section */
-    .contact-info {
-        display: grid; /* Use CSS Grid to arrange the contact items */
-        grid-template-columns: repeat(2, 1fr); /* 2 columns in the grid */
-        gap: 20px; /* Add some gap between the contact items */
-        justify-items: center; /* Center the items horizontally */
-        text-align: center; /* Center align the text content */
-    }
-
-    .contact-item {
-        flex: 0 1 calc(50% - 20px); /* 2 items per row, adjust the width and margin as needed */
-        text-align: center;
-        color: #f2f2f2;
-        font-family: 'Arial', sans-serif;
-        background-color: #33333300; /* Add background color to each contact item */
-        border-radius: 8px; /* Add border-radius for rounded corners */
-        margin: 10px;
-        padding: 10px; /* Reduce padding for smaller contact items */
-    }
-
-    .contact-item svg {
-        width: 8vw; /* Reduce the size of the SVG icons for smaller screens */
-    }
-
-    .contact-item h3 {
-        font-size: 2vw; /* Reduce the font size for contact item heading */
-        margin-bottom: 5px; /* Adjust the margin for the contact item heading */
-    }
-
-    .contact-item p {
-        font-size: 12px; /* Reduce the font size for the contact item description */
-    }
-
-    /* Adjust height of section 3 to fit the contact items properly */
-    #section3 {
-        height: auto;
-        min-height: 60vh; /* Adjust this value as needed */
-    }
-    /* Add this CSS code to create a 2 by 2 grid for the "Our Values" section */
+  
     #our-values {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 5px; /* Add some gap between the values */
-      }
-    
-      /* Style for individual values */
-      .values {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-        background-color: #33333300;
-        border-radius: 8px;
-        width: 20vw;
-        margin: 0 auto;
-      }
-    
-      .values svg {
-        width: 10vw; /* Adjust the size of the SVG icon */
-        height: 10vw;
-        fill: #f2f2f2;
-      }
-      
-    
-      .values h3 {
-        font-size: 2.1vw; /* Increase the font size for the heading */
-        margin: 10px 0; /* Adjust the margin for the heading */
-      }
-    
-      .values p {
-        font-size: 1.8vw; /* Adjust the font size for the description */
-        line-height: 1.4; /* Adjust line-height for better readability */
-        word-wrap: break-word; /* Add word-wrap to break long words */
-      }
-    
-    
-}
+      height: 60vh;
+      background-color: #151b3c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .LandingText {
+      font-size: 7vw;
+      white-space: normal;
+      text-align: center; /* Center the text on smaller viewports */
+    }
+  
+    #section2 {
+      height: auto; /* Adjust the height to fit the content */
+      padding: 20px; /* Add some padding for better spacing */
+    }
+  
+    nav {
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f2f2f2;
+      padding: 10px 0;
+    }
+  
+    .logo {
+      width: 8vw;
+      margin-left: 20px; /* Add some margin to the left for spacing */
+    }
+  
+    nav ul {
+      margin-right: 20px; /* Add some margin to the right for spacing */
+    }
+  
+    nav ul li a {
+      font-size: 4vw; /* Adjust the font size for the navigation links */
+      padding: 1vw 2vw; /* Add padding to the navigation links for better spacing */
+    }
+  
+    #section2 .content {
+      display: flex;
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      align-items: center; /* Center align the content */
+      padding: 20px; /* Add some padding for better spacing */
+    }
+  
+    #section2 .textbox {
+      width: 90%; /* Adjust the width of the text box */
+      padding: 0; /* Remove padding to use full width */
+    }
+  
+    #section2 .image {
+      display: none; /* Hide the image on smaller screens */
+    }
+  
+    #section2 .image img {
+      display: none; /* Hide the image on smaller screens */
+    }
+  
+    .textbox {
+      display: flex;
+      flex-direction: column; /* Stack the elements inside the text box */
+      align-items: center; /* Center align the elements inside the text box */
+      padding: 0; /* Remove padding to use full width */
+    }
+  
+    .textbox p,
+    .textbox h3,
+    .text h2,
+    .text p,
+    .textr h2,
+    .textr p {
+      font-size: 4vw; /* Increase the font size for better readability */
+      line-height: 1.4;
+      text-align: center; /* Center align the text */
+      width: 90%; /* Adjust the width of the text to use almost full width */
+    }
+  
+    .donate-button {
+      display: none; /* Hide the donate button on smaller screens */
+    }
+  
+    /* Additional styles for contact section */
+    #section3 {
+      height: auto;
+      min-height: 60vh;
+      padding: 20px; /* Add some padding for better spacing */
+    }
+  
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap; /* Allow contact items to wrap on smaller screens */
+      justify-content: center; /* Center align the contact items */
+      text-align: center;
+    }
+  
+    .contact-item {
+      flex: 0 1 calc(50% - 20px); /* 2 items per row, adjust the width and margin as needed */
+      text-align: center;
+      color: #f2f2f2;
+      font-family: 'Arial', sans-serif;
+      background-color: #33333300;
+      border-radius: 8px;
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .contact-item svg {
+      width: 8vw;
+      height: 8vw; /* Adjust the size of the SVG icons for smaller screens */
+    }
+  
+    .contact-item h3 {
+      font-size: 4vw; /* Reduce the font size for contact item heading */
+      margin-bottom: 5px;
+    }
+  
+    .contact-item p {
+      font-size: 12px;
+    }
+  
+    #our-values {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5px;
+      justify-items: center;
+      align-items: center;
+      padding: 20px; /* Add some padding for better spacing */
+    }
+  
+    .values {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #33333300;
+      border-radius: 8px;
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px; /* Add some padding for better spacing */
+    }
+  
+    .values svg {
+      width: 20vw; /* Adjust the size of the SVG icon */
+      height: 20vw;
+      fill: #f2f2f2;
+    }
+  
+    .values h3 {
+      font-size: 4vw; /* Increase the font size for the heading */
+      margin: 10px 0;
+    }
+  
+    .values p {
+      font-size: 3vw; /* Adjust the font size for the description */
+      line-height: 1.4;
+      word-wrap: break-word;
+    }
+  }
+  
 /* Add this CSS code to center the content in the "Our Work" section */
 
 #our-work .content {
